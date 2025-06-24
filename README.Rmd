@@ -1,0 +1,209 @@
+---
+output: github_document
+always_allow_html: true
+editor_options: 
+  markdown: 
+    wrap: 72
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%",
+  message = FALSE,
+  warning = FALSE,
+  fig.retina = 2,
+  fig.align = 'center'
+)
+```
+
+# CBCC WASH and Sanitation Survey 2021
+
+<!-- badges: start -->
+
+[![License: CC BY
+4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+<!-- badges: end -->
+
+This dataset captures detailed Water, Sanitation, and Hygiene (WASH)
+conditions and related management practices in Community-Based Childcare
+Centres (CBCCs) in Malawi. The data were collected through structured
+surveys administered by enumerators using a digital platform (likely
+mWater or ODK).
+
+The dataset includes metadata about the survey, geolocation of CBCCs,
+water source and functionality, sanitation infrastructure, hygiene
+practices, governance structures, funding, cleanliness, and educational
+materials related to hygiene promotion.
+
+Intended Users and Applications
+
+1.  Local Government and Health Authorities: To monitor WASH conditions,
+    inform resource allocation, and design targeted interventions within
+    Thyolo’s CBCCs.
+
+2.  CBCC Management and Caregivers: To identify gaps and improve
+    maintenance, hygiene practices, and infrastructure.
+
+3.  NGOs and Development Partners: To support planning, implementation,
+    and evaluation of WASH programs aligned with community needs and WHO
+    standards.
+
+4.  Researchers and Policy Makers: To study the relationship between
+    WASH facilities and child health outcomes for evidence-based
+    decision-making.
+
+5.  Donors and Funders: To assess infrastructure needs and measure
+    impact of funded WASH initiatives.
+
+## Installation
+
+You can install the development version of thyolocbcc from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("openwashdata/thyolocbcc")
+```
+
+```{r}
+## Run the following code in console if you don't have the packages
+## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra"))
+library(dplyr)
+library(knitr)
+library(readr)
+library(stringr)
+library(gt)
+library(kableExtra)
+```
+
+Alternatively, you can download the individual datasets as a CSV or XLSX
+file from the table below.
+
+1.  Click Download CSV. A window opens that displays the CSV in your
+    browser.
+2.  Right-click anywhere inside the window and select "Save Page As...".
+3.  Save the file in a folder of your choice.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+extdata_path <- "https://github.com/openwashdata/thyolocbcc/raw/main/inst/extdata/"
+
+read_csv("data-raw/dictionary.csv") |> 
+  distinct(file_name) |> 
+  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |> 
+  dplyr::rename(dataset = file_name) |> 
+  mutate(
+    CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
+    XLSX = paste0("[Download XLSX](", extdata_path, dataset, ".xlsx)")
+  ) |> 
+  knitr::kable()
+
+```
+
+## Data
+
+The package provides access to Community-Based Childcare Centres (CBCCs)
+in Thyolo District, focusing on critical Water, Sanitation, and Hygiene
+(WASH) infrastructure and practices
+
+```{r}
+library(thyolocbcc)
+```
+
+### thyolocbcc
+
+The dataset `thyolocbcc` contains `r nrow(thyolocbcc)` observations and
+`r ncol(thyolocbcc)` variables
+
+```{r}
+thyolocbcc |> 
+  head(3) |> 
+  gt::gt() |>
+  gt::as_raw_html()
+```
+
+For an overview of the variable names, see the following table.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+readr::read_csv("data-raw/dictionary.csv") |>
+  dplyr::filter(file_name == "thyolocbcc.rda") |>
+  dplyr::select(variable_name:description) |> 
+  knitr::kable() |> 
+  kableExtra::kable_styling("striped") |> 
+  kableExtra::scroll_box(height = "200px")
+```
+
+## Example
+
+```{r}
+library(thyolocbcc)
+library(forcats)
+library(ggplot2)
+
+# Create a bar chart of water source types, displaying NA as "Other"
+ggplot(thyolocbcc, aes(x = fct_explicit_na(main_water_source, na_level = "Other"))) +
+  geom_bar(fill = "#1f78b4") +
+  labs(title = "Main Water Source Types Across CBCCs",
+       x = "Water Source Type",
+       y = "Number of CBCCs") +
+  theme_minimal() +
+  # Rotate x-axis labels for better readability
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+#Pie Chart: Percentage of CBCCs with Year-Round Water Availability
+
+# Prepare data for pie chart
+year_round <- thyolocbcc %>%
+  # Filter out rows where water availability data is missing
+  filter(!is.na(water_available_year_round)) %>%
+  
+  # Count the number of CBCCs for each water availability category (Yes/No)
+  count(water_available_year_round) %>%
+  
+  # Calculate percentage and create a label for each slice
+  mutate(
+    percent = round(100 * n / sum(n), 1),  # Percent of total
+    label = paste0(water_available_year_round, " (", percent, "%)")  # Text label for the pie chart
+  )
+
+# Create pie chart
+ggplot(year_round, aes(x = "", y = n, fill = water_available_year_round)) +
+  # Create a stacked bar chart with white borders(to become pie slices)
+  geom_col(width = 1, color = "white") +
+  
+  # Convert the stacked bar into a circular pie chart
+  coord_polar(theta = "y") +
+  
+  # Add percentage labels inside each slice
+  geom_text(aes(label = label),
+            position = position_stack(vjust = 0.5),
+            color = "white", size = 4) +
+  
+  # Add chart title and remove other axis elements
+  labs(title = "Year-Round Water Availability at CBCCs") +
+  theme_void() +
+  
+  # Use a nice color palette for the slices
+  scale_fill_brewer(palette = "Set2")
+```
+
+## License
+
+Data are available as
+[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+
+## Citation
+
+Please cite this package using:
+
+```{r}
+citation("thyolocbcc")
+```
