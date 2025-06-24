@@ -1,14 +1,32 @@
 Package: thyolocbcc
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Authors@R: c(
+    person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3197-6244")),
+    person("A", "Kandodo", role = "ctb"),
+    person("Tobby", "Milanzi", role = "ctb"),
+    person("Victor", "Daudi", role = "ctb"),
+    person("M", "Banda", role = "ctb"),
+    person("Benson", "Isake", role = "ctb"),
+    person("Brian", "Ntutha", role = "ctb"),
+    person("R", "Sawiche", role = "ctb"),
+    person("Justice", "Elliot", role = "ctb"),
+    person("M", "Nzengo", role = "ctb"),
+    person("Christian", "Nedi", role = "ctb"),
+    person("Khumbo", "Zinyongo", role = "ctb"),
+    person("M", "Kazembe", role = "ctb")
+  )
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
 LazyData: true
+Language: en-GB
+Config/Needs/website: rmarkdown
+Date: 2025-06-24
+URL: https://github.com/openwashdata/thyolocbcc
+BugReports: https://github.com/openwashdata/thyolocbcc/issues
