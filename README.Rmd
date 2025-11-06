@@ -22,25 +22,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# CBCC WASH and Sanitation Survey 2021
+# WASH and Sanitation Survey in Community-Based Childcare Centres – Thyolo and Chikwawa, Malawi (2021)
 
 <!-- badges: start -->
 
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+[![DOI](https://zenodo.org/badge/1007587006.svg)](https://doi.org/10.5281/zenodo.17540498)
+
 <!-- badges: end -->
 
-This dataset captures detailed Water, Sanitation, and Hygiene (WASH)
-conditions and related management practices in Community-Based Childcare
-Centres (CBCCs) in Malawi. The data were collected through structured
-surveys administered by enumerators using a digital platform (likely
-mWater or ODK).
+This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.
 
-The dataset includes metadata about the survey, geolocation of CBCCs,
-water source and functionality, sanitation infrastructure, hygiene
-practices, governance structures, funding, cleanliness, and educational
-materials related to hygiene promotion.
+The dataset contains metadata about the survey, including the geographical location of CBCCs, water sources and their functionality, sanitation infrastructure, hygiene practices, governance and management structures, funding mechanisms, cleanliness levels, and the availability of hygiene education and promotional materials.
 
 Intended Users and Applications
 
