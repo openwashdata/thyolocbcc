@@ -1,0 +1,36 @@
+{
+  "@context": "https://openwashdata.org/",
+  "@type": "Dataset",
+  "name": "thyolocbcc",
+  "description": "This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform..",
+  "publisher": {
+    "@type": "Organization",
+    "name": "openwashdata @ Global Health Engineering, ETH Zurich",
+    "url": "https://openwashdata.org/"
+  },
+  "datePublished": "2025-11-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": null,
+  "distribution": {
+    "@type": "DataDownload",
+    "url": "https://raw.githubusercontent.com/openwashdata/thyolocbcc/main/inst/extdata/thyolocbcc.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/thyolocbcc/main/inst/extdata/thyolocbcc.csv",
+    "encodingFormat": "text/csv"
+  },
+  "encodingFormat": "CSV",
+  "version": "1.0",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": null
+  },
+  "temporalCoverage": {
+    "@type": "DateTime",
+    "startDate": null,
+    "endDate": null
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Emmanuel Mhango",
+    "email": "emmanuellmhango@gmail.com"
+  }
+}

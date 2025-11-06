@@ -1,0 +1,99 @@
+directory,file_name,variable_name,variable_type,description,...6,...7,...8,...9
+data/,thyolocbcc.rda,submitted_on,character,Date when the data was collected and submitted.,NA,NA,NA,NA
+data/,thyolocbcc.rda,district,character,Name of the district where the CBCC is located.,NA,NA,NA,NA
+data/,thyolocbcc.rda,enrollment_male_total,numeric,Total number of enrolled male children.,NA,NA,NA,NA
+data/,thyolocbcc.rda,enrollment_female_total,numeric,Total number of enrolled female children.,NA,NA,NA,NA
+data/,thyolocbcc.rda,enrollment_male_disability,numeric,Number of enrolled male children with disabilities.,NA,NA,NA,NA
+data/,thyolocbcc.rda,enrollment_female_disability,numeric,Number of enrolled female children with disabilities.,NA,NA,NA,NA
+data/,thyolocbcc.rda,latitude,numeric,GPS coordinate - latitude of the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,longitude,numeric,GPS coordinate - longitude of the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,photo_cbcc,character,Photo file or URL showing the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,cbcc_has_water,character,Indicates whether the CBCC currently has access to water.,NA,NA,NA,NA
+data/,thyolocbcc.rda,main_water_source,character,"The primary source of water for the CBCC (e.g., borehole, piped water).",NA,NA,NA,NA
+data/,thyolocbcc.rda,water_source_available_now,character,Whether the main water source is currently providing water.,NA,NA,NA,NA
+data/,thyolocbcc.rda,water_source_functional_status,character,Functional status of the main water source.,NA,NA,NA,NA
+data/,thyolocbcc.rda,breakdown_cause,character,Reported cause of breakdown in the water source.,NA,NA,NA,NA
+data/,thyolocbcc.rda,breakdown_past_12_months,character,Whether the water source has broken down in the last 12 months.,NA,NA,NA,NA
+data/,thyolocbcc.rda,breakdown_fixed_date,character,Date when the water source was last repaired.,NA,NA,NA,NA
+data/,thyolocbcc.rda,distance_water_market_magnitude,numeric,Distance from CBCC to the main water source (numeric part).,NA,NA,NA,NA
+data/,thyolocbcc.rda,distance_water_market_unit,character,"Unit of distance from CBCC to the main water source (e.g., meters).",NA,NA,NA,NA
+data/,thyolocbcc.rda,water_available_year_round,character,Whether the CBCC has access to water all year round.,NA,NA,NA,NA
+data/,thyolocbcc.rda,alternative_water_source,character,Alternative source of water for the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,water_supply_satisfaction,character,Whether the CBCC is satisfied with its current water supply.,NA,NA,NA,NA
+data/,thyolocbcc.rda,why_not_satisfied_water,character,Reasons for dissatisfaction with the water source.,NA,NA,NA,NA
+data/,thyolocbcc.rda,complaint_about_water,character,Whether any complaints have been made about water supply.,NA,NA,NA,NA
+data/,thyolocbcc.rda,alt_water_available_now,character,Whether the alternative water source is currently functional.,NA,NA,NA,NA
+data/,thyolocbcc.rda,distance_alt_water_magnitude,numeric,Distance to the alternative water source (numeric part).,NA,NA,NA,NA
+data/,thyolocbcc.rda,distance_alt_water_unit,character,"Unit of distance to the alternative water source (e.g., meters).",NA,NA,NA,NA
+data/,thyolocbcc.rda,main_water_50m_from_contaminants,character,Whether the main water source is at least 50m from contaminants.,NA,NA,NA,NA
+data/,thyolocbcc.rda,water_treatment_method,character,"Method used to treat water (e.g., boiling, chlorine).",NA,NA,NA,NA
+data/,thyolocbcc.rda,water_treatment_method_other,character,Other water treatment methods if not listed.,NA,NA,NA,NA
+data/,thyolocbcc.rda,treatment_meets_who_standards,character,Whether water treatment meets WHO safety standards.,NA,NA,NA,NA
+data/,thyolocbcc.rda,last_microbacteria_test_date,character,Date of last microbial test of the water.,NA,NA,NA,NA
+data/,thyolocbcc.rda,microbacteria_test_result_fcu,character,"Results of microbial test (e.g., fecal coliform units).",NA,NA,NA,NA
+data/,thyolocbcc.rda,water_quality_meets_who,character,Whether water quality meets WHO guidelines.,NA,NA,NA,NA
+data/,thyolocbcc.rda,water_mgmt_committee_available,character,Presence of a committee responsible for water management.,NA,NA,NA,NA
+data/,thyolocbcc.rda,committee_trained_on_maintenance,character,Whether the committee has received training on maintaining the water source.,NA,NA,NA,NA
+data/,thyolocbcc.rda,committee_functional,character,Whether the water management committee is currently active and functioning.,NA,NA,NA,NA
+data/,thyolocbcc.rda,committee_functional_comments,character,Additional comments on committee performance.,NA,NA,NA,NA
+data/,thyolocbcc.rda,operation_funds_available,character,Indicates if there are funds for operating/maintaining water infrastructure.,NA,NA,NA,NA
+data/,thyolocbcc.rda,funds_amount_account,character,The amount of funds currently available in the CBCCs account.,NA,NA,NA,NA
+data/,thyolocbcc.rda,funds_source,character,Main source of funds for water-related operations.,NA,NA,NA,NA
+data/,thyolocbcc.rda,other_source_of_funds,character,Alternative sources of funds if applicable.,NA,NA,NA,NA
+data/,thyolocbcc.rda,financial_records_kept,character,Whether financial records are maintained and up to date.,NA,NA,NA,NA
+data/,thyolocbcc.rda,has_wash_plan_budget,character,Whether the CBCC has a dedicated WASH plan or budget.,NA,NA,NA,NA
+data/,thyolocbcc.rda,additional_comments_1,character,Free-text field for any other observations.,NA,NA,NA,NA
+data/,thyolocbcc.rda,usable_toilets_for_kids,character,Availability of usable toilets for children.,NA,NA,NA,NA
+data/,thyolocbcc.rda,girls_toilet_total,numeric,Total number of toilets designated for girls.,NA,NA,NA,NA
+data/,thyolocbcc.rda,boys_toilet_total,numeric,Total number of toilets designated for boys.,NA,NA,NA,NA
+data/,thyolocbcc.rda,usable_toilets_for_staff,character,Whether there are usable toilets for staff.,NA,NA,NA,NA
+data/,thyolocbcc.rda,male_staff_toilet_total,numeric,Number of toilets designated for male staff.,NA,NA,NA,NA
+data/,thyolocbcc.rda,female_staff_toilet_total,numeric,Number of toilets designated for female staff.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilet_for_physically_challenged,character,Whether the facility has accessible toilets for people with disabilities.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilet_for_adolescent_girls,character,Availability of gender-appropriate toilets for adolescent girls.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilets_visibly_clean,character,Whether toilets are visibly clean.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilet_cleaning_frequency,character,Frequency of toilet cleaning.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilet_cleaning_frequency_other,character,Additional description of cleaning frequency if not listed.,NA,NA,NA,NA
+data/,thyolocbcc.rda,handwashing_at_toilets,character,Availability of handwashing stations near toilets.,NA,NA,NA,NA
+data/,thyolocbcc.rda,complaint_about_sanitation,character,Whether there have been complaints about sanitation.,NA,NA,NA,NA
+data/,thyolocbcc.rda,complaint_recipient,character,The person or entity who receives sanitation complaints.,NA,NA,NA,NA
+data/,thyolocbcc.rda,group_handwashing_station,character,Whether a group handwashing station exists at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,group_handwashing_count,numeric,Number of group handwashing stations available.,NA,NA,NA,NA
+data/,thyolocbcc.rda,soap_water_at_handwash,character,Availability of both soap and water at handwashing stations.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilet_has_ventilation,character,Indicates if toilets are adequately ventilated.,NA,NA,NA,NA
+data/,thyolocbcc.rda,toilets_within_30m_cbcc,character,Whether toilets are located within 30 meters of the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,open_defecation_near_cbcc,character,Presence of open defecation near the CBCC premises.,NA,NA,NA,NA
+data/,thyolocbcc.rda,has_waste_bins,character,Indicates if there are waste bins available at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,waste_bins_count,character,Number of waste bins available.,NA,NA,NA,NA
+data/,thyolocbcc.rda,solid_waste_management,character,"Method used to manage solid waste (e.g., burning, pit disposal).",NA,NA,NA,NA
+data/,thyolocbcc.rda,solid_waste_management_other,character,Other methods of solid waste management if not listed.,NA,NA,NA,NA
+data/,thyolocbcc.rda,surrounding_clean,character,Whether the general area around the CBCC is clean.,NA,NA,NA,NA
+data/,thyolocbcc.rda,dialogue_on_wash_issues,character,Whether there are community dialogues on WASH issues.,NA,NA,NA,NA
+data/,thyolocbcc.rda,last_wash_inspection,character,Date of the most recent WASH inspection.,NA,NA,NA,NA
+data/,thyolocbcc.rda,cbcc_provides_meals,character,Indicates if the CBCC provides meals to children.,NA,NA,NA,NA
+data/,thyolocbcc.rda,kitchen_sanitary_condition,character,General sanitary condition of the CBCC kitchen.,NA,NA,NA,NA
+data/,thyolocbcc.rda,kitchen_sanitary_condition_other,character,Additional kitchen sanitation details not covered in the main options.,NA,NA,NA,NA
+data/,thyolocbcc.rda,additional_comments_2,character,Additional enumerator comments related to WASH and sanitation.,NA,NA,NA,NA
+data/,thyolocbcc.rda,cbcc_cleaning_frequency,character,Frequency with which the CBCC is cleaned.,NA,NA,NA,NA
+data/,thyolocbcc.rda,cleaning_materials_used,character,"Materials used for cleaning (e.g., soap, bleach).",NA,NA,NA,NA
+data/,thyolocbcc.rda,surface_detergent_available,character,Indicates if surface cleaning agents are available.,NA,NA,NA,NA
+data/,thyolocbcc.rda,disinfection_tools_available,character,"Availability of disinfection tools (e.g., gloves, sprayers).",NA,NA,NA,NA
+data/,thyolocbcc.rda,hygiene_poster_visible,character,Whether hygiene promotion posters are visible at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,daily_group_handwashing,character,Whether group handwashing is practiced daily at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,caregiver_wash_training,character,Whether caregivers have received training on WASH practices.,NA,NA,NA,NA
+data/,thyolocbcc.rda,handwashing_in_cbcc,character,Whether handwashing is practiced regularly at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,soap_water_available_now,character,If soap and water were available at the time of data collection.,NA,NA,NA,NA
+data/,thyolocbcc.rda,demonstrate_handwashing,character,Whether learners or caregivers can demonstrate proper handwashing technique.,NA,NA,NA,NA
+data/,thyolocbcc.rda,soap_stock_available,character,Availability of a stockpile of soap at the CBCC.,NA,NA,NA,NA
+data/,thyolocbcc.rda,soap_provider,character,"Source/provider of the soap (e.g., parents, NGOs).",NA,NA,NA,NA
+data/,thyolocbcc.rda,learners_hygiene_education,character,Whether hygiene education is provided to children.,NA,NA,NA,NA
+data/,thyolocbcc.rda,hand_hygiene_protocol_visible,character,Visibility of hand hygiene protocols posted on CBCC premises.,NA,NA,NA,NA
+data/,thyolocbcc.rda,slts_triggered,character,Whether the CBCC has been triggered under the School-Led Total Sanitation (SLTS) initiative.,NA,NA,NA,NA
+data/,thyolocbcc.rda,wash_teaching_by_caregivers,character,Whether caregivers actively teach WASH principles.,NA,NA,NA,NA
+data/,thyolocbcc.rda,hygiene_iec_materials,character,"Availability of hygiene-related IEC (Information, Education, Communication) materials.",NA,NA,NA,NA
+data/,thyolocbcc.rda,key_handwashing_times,character,"Key times when handwashing is practiced (e.g., before meals, after toilet).",NA,NA,NA,NA
+data/,thyolocbcc.rda,key_handwashing_times_other,character,Additional key handwashing times not covered by standard options.,NA,NA,NA,NA
+data/,thyolocbcc.rda,iec_materials_for_training,character,Availability of IEC materials for training purposes.,NA,NA,NA,NA
+data/,thyolocbcc.rda,wash_improvement_equipment,character,Equipment available to support WASH improvements.,NA,NA,NA,NA
+data/,thyolocbcc.rda,wash_improvement_equipment_other,character,Any other WASH-related improvement equipment not listed.,NA,NA,NA,NA
+data/,thyolocbcc.rda,additional_comments_3,character,Final comments by the data collector on WASH and hygiene at the CBCC.,NA,NA,NA,NA
