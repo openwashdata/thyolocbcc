@@ -1,5 +1,5 @@
 Package: thyolocbcc
-Title: What the Package Does (One Line, Title Case)
+Title: WASH and Sanitation Survey in Community-Based Childcare Centres – Thyolo and Chikwawa, Malawi (2021)
 Version: 0.0.0.9000
 Authors@R: c(
     person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
@@ -17,7 +17,7 @@ Authors@R: c(
     person("Khumbo", "Zinyongo", role = "ctb"),
     person("M", "Kazembe", role = "ctb")
   )
-Description: What the package does (one paragraph).
+Description: This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform..
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -27,6 +27,6 @@ Depends:
 LazyData: true
 Language: en-GB
 Config/Needs/website: rmarkdown
-Date: 2025-06-24
+Date: 2025-11-06
 URL: https://github.com/openwashdata/thyolocbcc
 BugReports: https://github.com/openwashdata/thyolocbcc/issues

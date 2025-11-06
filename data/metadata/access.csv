@@ -1,0 +1,3 @@
+fileName,name,contentUrl,encodingFormat
+thyolocbcc.csv,thyolocbcc,https://raw.githubusercontent.com/openwashdata/thyolocbcc/main/inst/extdata/thyolocbcc.csv,csv
+thyolocbcc.xlsx,thyolocbcc,https://raw.githubusercontent.com/openwashdata/thyolocbcc/main/inst/extdata/thyolocbcc.xlsx,ooxml
