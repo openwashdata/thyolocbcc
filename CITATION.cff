@@ -1,0 +1,43 @@
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# ------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "thyolocbcc" in publications use:'
+type: dataset
+license: CC-BY-4.0
+title: 'thyolocbcc: WASH in Childcare Centres in Thyolo and Chikwawa, Malawi (2021)'
+version: 0.0.0.9000
+doi: 10.5281/zenodo.17540498
+abstract: This dataset provides detailed information on Water, Sanitation, and Hygiene
+  (WASH) conditions and related management practices in Community-Based Childcare
+  Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021.
+  Data were gathered by BASEflow using the mWater digital data collection platform.
+authors:
+- family-names: Mhango
+  given-names: Emmanuel
+  email: emmanuellmhango@gmail.com
+  orcid: https://orcid.org/0000-0003-3197-6244
+repository-code: https://github.com/openwashdata/thyolocbcc
+url: https://github.com/openwashdata/thyolocbcc
+date-released: '2026-09-23'
+contact:
+- family-names: Mhango
+  given-names: Emmanuel
+  email: emmanuellmhango@gmail.com
+  orcid: https://orcid.org/0000-0003-3197-6244
+keywords:
+- open data
+- washdata
+- childcare centres
+- early childhood development
+- sanitation
+- hygiene
+- water supply
+- Malawi
+- baseflow
+- cbcc
+- openwashdata
+- wash
+

@@ -1,0 +1,14 @@
+
+bibentry(bibtype = "Misc",
+         key = "mhango:2026",
+         title = "thyolocbcc: WASH in Childcare Centres in Thyolo and Chikwawa, Malawi (2021)",
+         author = person(given = "Emmanuel",
+                         family = "Mhango",
+                         email = "emmanuellmhango@gmail.com",
+                         comment = c(ORCID = "0000-0003-3197-6244")),
+         year = "2026",
+         doi = "10.5281/zenodo.17540498",
+         url = "https://github.com/openwashdata/thyolocbcc",
+         abstract = "This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.",
+         keywords = "open data,washdata,childcare centres,early childhood development,sanitation,hygiene,water supply,Malawi,baseflow,cbcc,openwashdata,wash",
+         version = "0.0.0.9000")
