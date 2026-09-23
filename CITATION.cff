@@ -8,7 +8,7 @@ message: 'To cite package "thyolocbcc" in publications use:'
 type: dataset
 license: CC-BY-4.0
 title: 'thyolocbcc: WASH in Childcare Centres in Thyolo and Chikwawa, Malawi (2021)'
-version: 0.0.0.9000
+version: 1.0.1
 doi: 10.5281/zenodo.17540498
 abstract: This dataset provides detailed information on Water, Sanitation, and Hygiene
   (WASH) conditions and related management practices in Community-Based Childcare

@@ -11,4 +11,4 @@ bibentry(bibtype = "Misc",
          url = "https://github.com/openwashdata/thyolocbcc",
          abstract = "This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.",
          keywords = "open data,washdata,childcare centres,early childhood development,sanitation,hygiene,water supply,Malawi,baseflow,cbcc,openwashdata,wash",
-         version = "0.0.0.9000")
+         version = "1.0.1")
