@@ -1,6 +1,6 @@
 Package: thyolocbcc
-Title: WASH and Sanitation Survey in Community-Based Childcare Centres – Thyolo and Chikwawa, Malawi (2021)
-Version: 0.0.0.9000
+Title: WASH in Childcare Centres in Thyolo and Chikwawa, Malawi (2021)
+Version: 1.0.1
 Authors@R: c(
     person("Emmanuel", "Mhango", , "emmanuellmhango@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3197-6244")),
@@ -17,7 +17,7 @@ Authors@R: c(
     person("Khumbo", "Zinyongo", role = "ctb"),
     person("M", "Kazembe", role = "ctb")
   )
-Description: This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform..
+Description: This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -27,6 +27,9 @@ Depends:
 LazyData: true
 Language: en-GB
 Config/Needs/website: rmarkdown
-Date: 2025-11-06
+Date: 2026-09-23
 URL: https://github.com/openwashdata/thyolocbcc
 BugReports: https://github.com/openwashdata/thyolocbcc/issues
+X-schema.org-keywords: open data, washdata, childcare centres, early childhood development, sanitation, hygiene, water supply, Malawi
+X-schema.org-spatialCoverage: Thyolo and Chikwawa, Malawi
+X-schema.org-temporalCoverage: 2021-08-23/2021-10-25
