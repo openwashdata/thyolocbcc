@@ -31,6 +31,7 @@ knitr::opts_chunk$set(
 
 [![DOI](https://zenodo.org/badge/1007587006.svg)](https://doi.org/10.5281/zenodo.17540498)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17540498.svg)](https://zenodo.org/doi/10.5281/zenodo.17540498)
 <!-- badges: end -->
 
 This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.
@@ -193,7 +194,7 @@ ggplot(year_round, aes(x = "", y = n, fill = water_available_year_round)) +
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/thyolocbcc/blob/main/LICENSE.md).
 
 ## Citation
 
