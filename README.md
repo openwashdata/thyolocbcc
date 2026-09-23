@@ -10,6 +10,8 @@
 
 [![DOI](https://zenodo.org/badge/1007587006.svg)](https://doi.org/10.5281/zenodo.17540498)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17540498.svg)](https://zenodo.org/doi/10.5281/zenodo.17540498)
+[![R-CMD-check](https://github.com/openwashdata/thyolocbcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/thyolocbcc/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This dataset provides detailed information on Water, Sanitation, and
@@ -98,7 +100,7 @@ thyolocbcc |>
   gt::as_raw_html()
 ```
 
-<div id="elyyfhwmts" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vwbdynsqsy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -498,8 +500,7 @@ thyolocbcc |>
 <td headers="wash_improvement_equipment_other" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">NA</td>
 <td headers="additional_comments_3" class="gt_row gt_left" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: left;" valign="middle" align="left">NA</td></tr>
   </tbody>
-  &#10;  
-</table>
+  &#10;</table>
 </div>
 
 For an overview of the variable names, see the following table.
@@ -2427,7 +2428,7 @@ ggplot(thyolocbcc, aes(x = fct_explicit_na(main_water_source, na_level = "Other"
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" alt="" width="100%" style="display: block; margin: auto;" />
 
 ``` r
 
@@ -2469,12 +2470,12 @@ ggplot(year_round, aes(x = "", y = n, fill = water_available_year_round)) +
   scale_fill_brewer(palette = "Set2")
 ```
 
-<img src="man/figures/README-unnamed-chunk-7-2.png" width="100%" style="display: block; margin: auto;" />
+<img src="man/figures/README-unnamed-chunk-7-2.png" alt="" width="100%" style="display: block; margin: auto;" />
 
 ## License
 
 Data are available as
-[CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
+[CC-BY](https://github.com/openwashdata/thyolocbcc/blob/main/LICENSE.md).
 
 ## Citation
 
@@ -2484,17 +2485,21 @@ Please cite this package using:
 citation("thyolocbcc")
 #> To cite package 'thyolocbcc' in publications use:
 #> 
-#>   Mhango E (2025). _thyolocbcc: What the Package Does (One Line, Title
-#>   Case)_. R package version 0.0.0.9000,
+#>   Mhango E (2026). "thyolocbcc: WASH in Childcare Centres in Thyolo and
+#>   Chikwawa, Malawi (2021)." doi:10.5281/zenodo.17540498
+#>   <https://doi.org/10.5281/zenodo.17540498>.
 #>   <https://github.com/openwashdata/thyolocbcc>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Manual{,
-#>     title = {thyolocbcc: What the Package Does (One Line, Title Case)},
+#>   @Misc{mhango:2026,
+#>     title = {thyolocbcc: WASH in Childcare Centres in Thyolo and Chikwawa, Malawi (2021)},
 #>     author = {Emmanuel Mhango},
-#>     year = {2025},
-#>     note = {R package version 0.0.0.9000},
+#>     year = {2026},
+#>     doi = {10.5281/zenodo.17540498},
 #>     url = {https://github.com/openwashdata/thyolocbcc},
+#>     abstract = {This dataset provides detailed information on Water, Sanitation, and Hygiene (WASH) conditions and related management practices in Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa Districts in Malawi, collected in 2021. Data were gathered by BASEflow using the mWater digital data collection platform.},
+#>     keywords = {open data,washdata,childcare centres,early childhood development,sanitation,hygiene,water supply,Malawi,baseflow,cbcc,openwashdata,wash},
+#>     version = {0.0.0.9000},
 #>   }
 ```
