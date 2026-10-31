@@ -14,6 +14,8 @@
 [![R-CMD-check](https://github.com/openwashdata/thyolocbcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/thyolocbcc/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This dataset provides detailed information on Water, Sanitation, and
 Hygiene (WASH) conditions and related management practices in
 Community-Based Childcare Centres (CBCCs) across Thyolo and Chikwawa
