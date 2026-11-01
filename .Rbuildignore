@@ -9,3 +9,5 @@
 ^data/metadata$
 ^CITATION\.cff$
 ^\.github$
+^_brand\.yml$
+^logos$
